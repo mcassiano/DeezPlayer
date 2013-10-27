@@ -355,7 +355,9 @@
                     <webView id="587">
                         <rect key="frame" x="0.0" y="0.0" width="1200" height="700"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12"/>
+                        <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12">
+                            <nil key="identifier"/>
+                        </webPreferences>
                         <connections>
                             <outlet property="UIDelegate" destination="571" id="591"/>
                             <outlet property="frameLoadDelegate" destination="571" id="590"/>
@@ -363,6 +365,46 @@
                     </webView>
                 </subviews>
             </view>
+            <toolbar key="toolbar" implicitIdentifier="C1AD5BB4-7CF9-459D-80D1-F93D385C3265" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="small" id="aXm-Of-PeW">
+                <allowedToolbarItems>
+                    <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="BId-u3-eym"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="QSV-PO-qbk"/>
+                    <toolbarItem implicitItemIdentifier="BA70DF35-2BA3-46D3-9272-D2B7FB12737B" label="Profile" paletteLabel="Profile" tag="-1" image="user_24x32" id="NXH-Gn-IH3">
+                        <connections>
+                            <action selector="openProfile:" target="BTd-ZF-5Cm" id="BvT-fF-n5e"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="7C4DC30E-2451-407B-9044-44EA02AACF9E" label="Charts" paletteLabel="Charts" tag="-1" image="bars_alt_28x32" id="yob-PT-HED">
+                        <connections>
+                            <action selector="openCharts:" target="BTd-ZF-5Cm" id="4Wg-TV-VCT"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="D243A4CB-627E-43E7-A3C6-7F23CCA82902" label="Play/Resume" paletteLabel="Play/Resume" tag="-1" image="play_alt_32x32" id="GJw-xB-vuu">
+                        <connections>
+                            <action selector="play:" target="BTd-ZF-5Cm" id="J3x-VB-aE5"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="1418128A-A415-4AF0-8BEE-6D70BEBEF126" label="Previous" paletteLabel="Previous" tag="-1" image="arrow_left_alt1_32x32" id="ltl-Bc-m0L">
+                        <connections>
+                            <action selector="previous:" target="BTd-ZF-5Cm" id="z8P-cl-hGD"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="6ADC8D1E-82D0-461B-905C-394059D3CA5E" label="Next" paletteLabel="Next" tag="-1" image="arrow_right_alt1_32x32" id="qXd-Hk-TIO">
+                        <connections>
+                            <action selector="next:" target="BTd-ZF-5Cm" id="f6L-9z-Uyp"/>
+                        </connections>
+                    </toolbarItem>
+                </allowedToolbarItems>
+                <defaultToolbarItems>
+                    <toolbarItem reference="NXH-Gn-IH3"/>
+                    <toolbarItem reference="QSV-PO-qbk"/>
+                    <toolbarItem reference="ltl-Bc-m0L"/>
+                    <toolbarItem reference="GJw-xB-vuu"/>
+                    <toolbarItem reference="qXd-Hk-TIO"/>
+                    <toolbarItem reference="QSV-PO-qbk"/>
+                    <toolbarItem reference="yob-PT-HED"/>
+                </defaultToolbarItems>
+            </toolbar>
             <connections>
                 <outlet property="delegate" destination="494" id="594"/>
             </connections>
@@ -406,7 +448,15 @@
         <customObject id="BTd-ZF-5Cm" customClass="MenuController">
             <connections>
                 <outlet property="myVC" destination="571" id="0N0-80-SUw"/>
+                <outlet property="playResumeButton" destination="GJw-xB-vuu" id="kQn-Hs-eX0"/>
             </connections>
         </customObject>
     </objects>
+    <resources>
+        <image name="arrow_left_alt1_32x32" width="32" height="32"/>
+        <image name="arrow_right_alt1_32x32" width="32" height="32"/>
+        <image name="bars_alt_28x32" width="28" height="32"/>
+        <image name="play_alt_32x32" width="32" height="32"/>
+        <image name="user_24x32" width="24" height="32"/>
+    </resources>
 </document>

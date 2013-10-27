@@ -22,6 +22,20 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		2F0C3AD8181C978400DA7554 /* chart_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C3AD7181C978400DA7554 /* chart_32x32.png */; };
+		2F0C3ADA181C980000DA7554 /* user_24x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C3AD9181C980000DA7554 /* user_24x32.png */; };
+		2F0C3AE4181C990200DA7554 /* arrow_left_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C3ADB181C990200DA7554 /* arrow_left_32x32.png */; };
+		2F0C3AE5181C990200DA7554 /* arrow_right_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C3ADC181C990200DA7554 /* arrow_right_32x32.png */; };
+		2F0C3AE6181C990200DA7554 /* bars_alt_28x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C3ADD181C990200DA7554 /* bars_alt_28x32.png */; };
+		2F0C3AE7181C990200DA7554 /* cd_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C3ADE181C990200DA7554 /* cd_32x32.png */; };
+		2F0C3AE8181C990200DA7554 /* equalizer_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C3ADF181C990200DA7554 /* equalizer_32x32.png */; };
+		2F0C3AE9181C990200DA7554 /* heart_stroke_32x28.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C3AE0181C990200DA7554 /* heart_stroke_32x28.png */; };
+		2F0C3AEA181C990200DA7554 /* home_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C3AE1181C990200DA7554 /* home_32x32.png */; };
+		2F0C3AEB181C990200DA7554 /* play_alt_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C3AE2181C990200DA7554 /* play_alt_32x32.png */; };
+		2F0C3AEC181C990200DA7554 /* stop_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C3AE3181C990200DA7554 /* stop_32x32.png */; };
+		2F0C3AEF181C99E700DA7554 /* arrow_left_alt1_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C3AED181C99E700DA7554 /* arrow_left_alt1_32x32.png */; };
+		2F0C3AF0181C99E700DA7554 /* arrow_right_alt1_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C3AEE181C99E700DA7554 /* arrow_right_alt1_32x32.png */; };
+		2F0C3AF2181C9B9800DA7554 /* pause_24x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C3AF1181C9B9800DA7554 /* pause_24x32.png */; };
 		2F7609BC1819CD6B00C71187 /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7609BB1819CD6B00C71187 /* MenuController.m */; };
 		5946149215952E7F00749A65 /* custom.js in Resources */ = {isa = PBXBuildFile; fileRef = 59AB0A0B159146600010365B /* custom.js */; };
 		59AB09E1159103920010365B /* MediaKeyApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FAC291159100D2007B0F87 /* MediaKeyApp.m */; };
@@ -70,6 +84,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2F0C3AD7181C978400DA7554 /* chart_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chart_32x32.png; path = ../../../iconic/raster/gray_light/chart_32x32.png; sourceTree = "<group>"; };
+		2F0C3AD9181C980000DA7554 /* user_24x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user_24x32.png; path = ../../../iconic/raster/gray_light/user_24x32.png; sourceTree = "<group>"; };
+		2F0C3ADB181C990200DA7554 /* arrow_left_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_left_32x32.png; path = ../../../iconic/raster/gray_light/arrow_left_32x32.png; sourceTree = "<group>"; };
+		2F0C3ADC181C990200DA7554 /* arrow_right_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_right_32x32.png; path = ../../../iconic/raster/gray_light/arrow_right_32x32.png; sourceTree = "<group>"; };
+		2F0C3ADD181C990200DA7554 /* bars_alt_28x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bars_alt_28x32.png; path = ../../../iconic/raster/gray_light/bars_alt_28x32.png; sourceTree = "<group>"; };
+		2F0C3ADE181C990200DA7554 /* cd_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cd_32x32.png; path = ../../../iconic/raster/gray_light/cd_32x32.png; sourceTree = "<group>"; };
+		2F0C3ADF181C990200DA7554 /* equalizer_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = equalizer_32x32.png; path = ../../../iconic/raster/gray_light/equalizer_32x32.png; sourceTree = "<group>"; };
+		2F0C3AE0181C990200DA7554 /* heart_stroke_32x28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heart_stroke_32x28.png; path = ../../../iconic/raster/gray_light/heart_stroke_32x28.png; sourceTree = "<group>"; };
+		2F0C3AE1181C990200DA7554 /* home_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_32x32.png; path = ../../../iconic/raster/gray_light/home_32x32.png; sourceTree = "<group>"; };
+		2F0C3AE2181C990200DA7554 /* play_alt_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play_alt_32x32.png; path = ../../../iconic/raster/gray_light/play_alt_32x32.png; sourceTree = "<group>"; };
+		2F0C3AE3181C990200DA7554 /* stop_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stop_32x32.png; path = ../../../iconic/raster/gray_light/stop_32x32.png; sourceTree = "<group>"; };
+		2F0C3AED181C99E700DA7554 /* arrow_left_alt1_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_left_alt1_32x32.png; path = ../../../iconic/raster/gray_light/arrow_left_alt1_32x32.png; sourceTree = "<group>"; };
+		2F0C3AEE181C99E700DA7554 /* arrow_right_alt1_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_right_alt1_32x32.png; path = ../../../iconic/raster/gray_light/arrow_right_alt1_32x32.png; sourceTree = "<group>"; };
+		2F0C3AF1181C9B9800DA7554 /* pause_24x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause_24x32.png; path = ../../../iconic/raster/gray_light/pause_24x32.png; sourceTree = "<group>"; };
 		2F7609BA1819CD6B00C71187 /* MenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuController.h; sourceTree = "<group>"; };
 		2F7609BB1819CD6B00C71187 /* MenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuController.m; sourceTree = "<group>"; };
 		59AB09EE15910EC00010365B /* deezer-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deezer-logo.png"; sourceTree = "<group>"; };
@@ -187,6 +215,20 @@
 		59FAC27215910053007B0F87 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2F0C3AF1181C9B9800DA7554 /* pause_24x32.png */,
+				2F0C3AED181C99E700DA7554 /* arrow_left_alt1_32x32.png */,
+				2F0C3AEE181C99E700DA7554 /* arrow_right_alt1_32x32.png */,
+				2F0C3ADB181C990200DA7554 /* arrow_left_32x32.png */,
+				2F0C3ADC181C990200DA7554 /* arrow_right_32x32.png */,
+				2F0C3ADD181C990200DA7554 /* bars_alt_28x32.png */,
+				2F0C3ADE181C990200DA7554 /* cd_32x32.png */,
+				2F0C3ADF181C990200DA7554 /* equalizer_32x32.png */,
+				2F0C3AE0181C990200DA7554 /* heart_stroke_32x28.png */,
+				2F0C3AE1181C990200DA7554 /* home_32x32.png */,
+				2F0C3AE2181C990200DA7554 /* play_alt_32x32.png */,
+				2F0C3AE3181C990200DA7554 /* stop_32x32.png */,
+				2F0C3AD9181C980000DA7554 /* user_24x32.png */,
+				2F0C3AD7181C978400DA7554 /* chart_32x32.png */,
 				59AF23751591CDBA00FD9E05 /* dsa_pub.pem */,
 				59AB09EE15910EC00010365B /* deezer-logo.png */,
 				59FAC292159100E6007B0F87 /* SPMediaKeyTap */,
@@ -302,13 +344,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F0C3AF2181C9B9800DA7554 /* pause_24x32.png in Resources */,
 				59FAC27615910053007B0F87 /* InfoPlist.strings in Resources */,
+				2F0C3AE8181C990200DA7554 /* equalizer_32x32.png in Resources */,
+				2F0C3AD8181C978400DA7554 /* chart_32x32.png in Resources */,
 				59FAC28B1591009B007B0F87 /* icon.icns in Resources */,
+				2F0C3AF0181C99E700DA7554 /* arrow_right_alt1_32x32.png in Resources */,
 				59FAC294159100F2007B0F87 /* MainMenu.xib in Resources */,
+				2F0C3AE6181C990200DA7554 /* bars_alt_28x32.png in Resources */,
+				2F0C3AEC181C990200DA7554 /* stop_32x32.png in Resources */,
+				2F0C3AEA181C990200DA7554 /* home_32x32.png in Resources */,
 				59AB09EF15910EC00010365B /* deezer-logo.png in Resources */,
 				59AB0A07159142250010365B /* CHANGELOG.md in Resources */,
+				2F0C3AE4181C990200DA7554 /* arrow_left_32x32.png in Resources */,
+				2F0C3AEB181C990200DA7554 /* play_alt_32x32.png in Resources */,
 				59AB0A0A1591443E0010365B /* custom.css in Resources */,
+				2F0C3AE9181C990200DA7554 /* heart_stroke_32x28.png in Resources */,
 				5946149215952E7F00749A65 /* custom.js in Resources */,
+				2F0C3AEF181C99E700DA7554 /* arrow_left_alt1_32x32.png in Resources */,
+				2F0C3AE5181C990200DA7554 /* arrow_right_32x32.png in Resources */,
+				2F0C3AE7181C990200DA7554 /* cd_32x32.png in Resources */,
+				2F0C3ADA181C980000DA7554 /* user_24x32.png in Resources */,
 				59AF23761591CDBA00FD9E05 /* dsa_pub.pem in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

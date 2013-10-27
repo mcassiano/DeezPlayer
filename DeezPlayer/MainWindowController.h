@@ -17,5 +17,7 @@
 - (void)togglePlayPause;
 - (void)playNext;
 - (void)playPrev;
+- (void)openProfile;
+- (void)openCharts;
 
 @end

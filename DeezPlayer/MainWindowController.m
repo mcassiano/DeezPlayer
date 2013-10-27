@@ -91,6 +91,14 @@
     [webView stringByEvaluatingJavaScriptFromString:@"playercontrol.doAction('prev');"];
 }
 
+- (void)openProfile {
+    [webView stringByEvaluatingJavaScriptFromString:@"$('#header_user_profil')[0].onclick()"];
+}
+
+- (void)openCharts {
+    [webView stringByEvaluatingJavaScriptFromString:@"$('#naboo_menu_discover_tops')[0].onclick()"];
+}
+
 - (void)setBackground {
     [webView setDrawsBackground:NO];
     [[self window] setBackgroundColor:NSColor.blackColor];
